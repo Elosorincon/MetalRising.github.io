@@ -1,0 +1,268 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&family=Playfair&display=swap');
+
+body {
+
+background-image: url(Dragon-red-background-creative_2560x1600.jpg);
+}
+
+.container {
+
+
+
+}
+
+.header {
+
+
+display:flex;
+justify-content: space-around;
+align-items: center;
+box-sizing: border-box;
+flex-wrap: nowrap;
+height: 150px;
+
+
+
+}
+
+.Titulo {
+
+
+
+color: white;
+width: 40%;
+height: 60% ;
+text-align:  center;
+font-size: 350% ;
+font-family: 'Metal Mania', sans-serif;
+
+
+}
+
+
+
+
+
+
+
+.PNG{
+
+display: flex;
+justify-content: row;
+justify-content: center;
+align-items: flex-end;	
+
+width: 100px;
+height: 150px;
+
+}
+
+.PNG img{
+
+
+width:70px;
+height:90px;
+
+}
+
+.nav{
+
+background: red;
+color: white;
+display:flex;
+justify-content: center;
+box-sizing: border-box;	
+margin-top: 0px;
+font-size: 18px;
+
+}
+
+
+ul{
+
+ list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li{
+
+display: inline;
+  margin-right: 70px;
+  box-sizing: border-box;	
+
+
+}
+
+#enlaceInicio {
+            color: blue;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+
+
+#enlaceVideos {
+            color: blue;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+
+
+
+
+
+main{
+
+
+display: flex;
+
+
+
+}
+
+.section{
+
+
+border: 3px solid #000;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 70%;
+height: 40em;
+flex-wrap: nowrap;
+
+}
+
+.Bodega{
+
+display: flex;
+justify-content: row;
+justify-content: center;	
+align-items: flex-end;
+border: 3px solid #000;
+width:70%;
+height: 70%;
+ box-sizing: border-box;	
+flex-wrap: nowrap;
+background-size: cover;
+background-position: center; transition: background-image 0.5s ease-in-out;
+
+}
+
+
+.Caja{
+
+border: 3px solid #000;
+width: 7em;
+height: 7em;
+
+
+
+}
+
+.Caja img{
+
+width:100%;
+height:100%;
+
+
+
+}
+
+
+.aside{
+
+background: red 	;
+display: block;
+
+border: 3px solid #000;
+width: 20%;
+height: 40em;
+
+}
+
+.Radio{
+
+display: flex;
+justify-content:  center;
+
+margin-top: 10%;
+width:100%;
+height: 4em;
+flex-wrap: nowrap;
+
+}
+
+.Radio audio{
+
+
+
+
+}
+
+.listmusic {
+ 
+  width: 100%;
+  height: 300px;
+}
+
+#reproductor {
+  width: 100%;
+}
+
+#cancioneslista {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: auto;
+  max-height: 200px; /* Ajusta según sea necesario */
+}
+
+footer{
+
+border: 3px solid #000;
+
+
+}
+
+@media only screen and (max-width: 430px)  {
+
+
+  .header{
+
+
+  height: 8%;
+
+  }
+
+
+  .Titulo {
+    font-size: 200%;
+    width: 210px;
+    height: 50%;
+  }
+
+
+  .PNG{
+
+   width:   30px;
+   height:  115px;
+
+
+  }
+
+  .nav{
+
+
+   font-size: 16px;
+
+
+  }
+
+  li{
+
+  margin-right: 10px;
+
+
+  }
